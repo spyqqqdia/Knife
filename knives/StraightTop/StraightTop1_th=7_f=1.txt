@@ -1,0 +1,25 @@
+
+
+Spline through points (_not closed_):
+ 250 , 30 
+ 90 , 30 
+ 30 , 32 
+ 5 , 51 
+ 0 , 30 
+ 0 , 10 
+ 30 , 5 
+ 90 , 10 
+ 180 , 10 
+ 265 , 25 
+ Line (2 points):
+ 265 , 25 
+ 250 , 30 
+ 
+
+Circle:
+ 14 , 18 
+ Radius = 2mm
+
+
+Length: 23cm, thickness: 7mm
+Weight: 0.282 kg.

@@ -1,0 +1,35 @@
+
+
+Tip layer:
+ Line1:
+ 237.5 , 23.75 
+ 180.5 , 32.3 
+ 
+
+Line2:
+ 180.5 , 15.2 
+ 237.5 , 23.75 
+ 
+
+Handle layer
+: Spline through points:
+ 180.5 , 32.3 
+ 152 , 30.4 
+ 38 , 36.1 
+ 14.25 , 36.1 
+ 10 , 34.2 
+ 10 , 13.3 
+ 14.25 , 11.4 
+ 38 , 11.4 
+ 152 , 17.1 
+ 180.5 , 15.2 
+ 
+
+Grip hole:
+ Circle:
+ 19 , 23.75 
+ Radius = 2mm
+
+
+Length: 22.8cm, thickness: 8mm
+Weight: 0.216 kg.
