@@ -20,7 +20,7 @@ the CAD program LibreCAD to generate the *.dxf CAD-file. You can then send the C
 have the blanks cut. Links to laser cutters are found below.
 
 Instruct the laser cutter to round off the tip, otherwise the laser may cut a sharp tip on the knife.
-However the blanks need to be worked on some -- not much. The edges need to be slightly rounded and the
+Even so the blanks need to be worked on some -- not much. The edges need to be slightly rounded and the
 tip ground in angular fashion to an authentic looking shape.
 
 
