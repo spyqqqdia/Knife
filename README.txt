@@ -5,16 +5,16 @@ We design some throwing knives and write out text files containing the command l
 generate the *.dxf CAD-file. You can then send the CAD-file to laser cutters and have the blanks cut. 
 This is very inexpensive, say 5 times less than buying cusotm made knives.
 
-However the blanks need to be worked on some -- nit much. The edges need to be slightly rounded and the
-tip ground sharper a lttle.
+However the blanks need to be worked on some -- not much. The edges need to be slightly rounded and the
+tip ground a little sharper.
 However for the knife to stick it is unnecessary to grind the tip much if at all
 (at least on a 6mm thick knife).
 Simply instruct the laser cutter not to round the tip, the laser cuts a very sharp tip
 (links to laser cutters in Germany below).
 
-You do need to round the egdes though not only because they will cut your fingers. 
-The problem is knife on knife impact (mostly in the form of a glancing blow). 
-If the edges are sharp and the steel is brittle chips will break off. If the edges are slightly rounded
+You do need to round the egdes though not only because they will cut your fingers.   
+The problem is knife on knife impact (mostly in the form of a glancing blow).   
+If the edges are sharp and the steel is brittle chips will break off. If the edges are slightly rounded    
 chipping is much reduced.
 
 For this you will want to have a diamond file, such as 
@@ -26,7 +26,7 @@ This brings us to the
 
 ## Steel ##
 
-The strenght of steel is measured primarily by 4 quantities:
+The strength of steel is measured primarily by 4 quantities:
 
 tensile strength: resist pulling apart  (N/mm² = Mpa)
 yield strength: resist permanent deformation (N/mm² = Mpa)
@@ -42,7 +42,7 @@ bent at a 15 x 6mm cross section from the impact.
 However yield strength in excess of 500 N/mm² is surely enough and almost every knife steel does have that (e.g.
 even stainless AISI 420).
 
-Impact resistance is very important. Not only will you get glancing knife on knife blows you will get direct hist
+Impact resistance is very important. Not only will you get glancing knife on knife blows you will get direct hits
 of knife tip on knife (now and then) and then the tip should not break.
 
 Very hard steel (symptom also: high tensile strength) tends to be brittle. Here some examples of steels
@@ -84,14 +84,14 @@ You can get it from this
 [another laser cutter](https://laserteileonline.de/)  
 
 This is for Germany. I am sure laser cutters exist in every continent and developed country.  
-Generally for every steel you can get a spec sheet if you know the EN or AISY classification,   
+Generally for every steel you can get a spec sheet if you know the EN or AISI classification,   
 for which you can get tables on the internet:
 
 [Steels, DIN, in German](https://hps.hs-regensburg.de/heh39273/aufsaetze/en10025_1.pdf) or this very nice one with
-chemical compsition:
+chemical composition:
 [Steel tables](https://www.tetec-mueller.de/Dokumente/Pdf/Common/d/Material1_d.pdf).
 
-Generally you do not want a steel with too much carbon (e.g more than 0.60%) -- it is too brittle.
+Generally you do not want a steel with too much carbon (e.g more than 0.70%) -- it is too brittle.
 
 
 ## How to get your knife ##
@@ -103,10 +103,10 @@ to draw your knife and generate the *.dxf file (CAD file).
 If you have never worked with a CAD program do not worry: LibreCAD is free, it's not hard and there are you-tube tutorials. 
 
 Soon I will also generate the command file for direct upload into LibreCAD (works only in latest version 2.2.0) 
-but as of yet I was unable to make it work and so you have to enter the command manually into the command line window
+but as of yet I was unable to make it work and so you have to enter the commands manually into the command line window
 of LibreCAD.
 
-Then you choose your laser cutter, upload the CAD-file and choose your steel and number of pieces. 
+Then you choose your laser cutter, upload the CAD-file and choose your steel, thickness and number of pieces. 
 You then get a price and can order. This is some orders of magnitude cheaper than the commercial sources for knives
 but also your knife still needs some work. You will need a rotary grinder. Chose a slow running one to avoid overheating the
 steel and one with high grade (white) corundum wheels. CBN grinding wheels are even better but are tyically not available
@@ -117,16 +117,16 @@ Eventually I will put some others on too. The text files with the commands are a
 
 Is this a better solution than ordering the expensive knives from sources like Wulflund or AceJet?
 Only if you are willing to put in additional work and want many and several different types of knives
-because you will spend money on tools, equipment (safety goggles, gloves, grinder) and invest time.
+because you will spend money on tools, equipment (safety goggles, gloves, grinder, diamond files) and invest time.
 If all you want is a set of knives the best solution is to pony up the cash and order from 
 
-[Wulflund](https://www.wulflund.com/weapons-swords-axes-knives/sharp-blades-throwing-knives/)   
+[Wulflund](https://www.wulflund.com/weapons-swords-axes-knives/sharp-blades-throwing-knives/)   or  
 [AceJet](https://www.acejetofficial.com/throwing-knives)
 
 ## R-Code ##
 
 I design these knives by trial and error in LibreCAD taking note of the commands (spline, line control points).   
-Then I package this in an R-code that writes back the commands into a text file but also depends on a scale factor   
+Then I package this in an R-code that writes back the commands into a text file and also depends on a scale factor   
 (f) which allows you to make the knife smaller or bigger.
 
 E.g.: you like a knife but the normed version (f=1) is 25cm long and you want a version that is 26cm long.   
