@@ -1,19 +1,31 @@
 
-# Throwing Knives 
+# Designing Imitation Throwing Knives 
 
-We design some throwing knives and write out text files containing the command line commands for LibreCAD to
-generate the *.dxf CAD-file. You can then send the CAD-file to laser cutters and have the blanks cut. 
-This is very inexpensive, say 5 times less than buying cusotm made knives.
+#----------- DISCLAIMER and WARNING -----------------------------------------------------------------# 
 
+The following information is provided for informational purposes only and without warranty of any kind. 
+In particular it is not implied that the knives described herein are fit or save for throwing.
+Indeed they are not intended to be thrown at all and are intended to be authentic looking _imitations_ 
+of throwing knives.
+
+Actually throwing knives is a potentially hazardous activity and is illegal in certain jurisdictions.
+Carefully follow the steps below to ensure your imitation throwing knife conforms to all applicable 
+restrictions in your area.
+
+#------------------------------------------------------------------------------------------------------#
+
+
+We design some imitation throwing knives and write out text files containing the command line commands for 
+the CAD program LibreCAD to generate the *.dxf CAD-file. You can then send the CAD-file to laser cutters and 
+have the blanks cut. Links to laser cutters are found below.
+
+Instruct the laser cutter to round off the tip, otherwise the laser may cut a sharp tip on the knife.
 However the blanks need to be worked on some -- not much. The edges need to be slightly rounded and the
-tip ground a little sharper.
-However for the knife to stick it is unnecessary to grind the tip much if at all
-(at least on a 6mm thick knife).
-Simply instruct the laser cutter not to round the tip, the laser cuts a very sharp tip
-(links to laser cutters in Germany below).
+tip ground in angular fashion to an authentic looking shape.
 
-You do need to round the egdes though not only because they will cut your fingers.   
-The problem is knife on knife impact (mostly in the form of a glancing blow).   
+
+You do need to round the egdes otherwise they may cut your fingers. This is also a feature of real throwing knives
+where the problem is knife on knife impact (mostly in the form of a glancing blow).   
 If the edges are sharp and the steel is brittle chips will break off. If the edges are slightly rounded    
 chipping is much reduced.
 
@@ -39,13 +51,16 @@ Tensile strength is also unimportant.
 However _yield_ _strength_ is important. I have had knives made from kitchen sink stainless steel (EN 1.4301, AISI 304)
 bent at a 15 x 6mm cross section from the impact. 
 
-However yield strength in excess of 500 N/mm² is surely enough and almost every knife steel does have that (e.g.
-even stainless AISI 420).
+However yield strength in excess of 500 N/mm² is surely enough and corresponding steels are available.
 
-Impact resistance is very important. Not only will you get glancing knife on knife blows you will get direct hits
-of knife tip on knife (now and then) and then the tip should not break.
+Impact resistance is very important. When actually throwing knives you get glancing knife on knife blows and 
+you get direct hits of knife tip on knife (now and then) and then the tip should not break.
 
-Very hard steel (symptom also: high tensile strength) tends to be brittle. Here some examples of steels
+To look authentic the imitation throwing knife needs to be made from steel suitable for real throwing knives.
+Kitchen sink stainless steel (see below) can be highly polished but does not look authentic.
+
+Very hard steel (symptom also: high tensile strength) tends to be brittle and is also unsuitable. 
+Here some examples of steels
 
 Kitchen sink stainless:    
 EN 1.4301, AISI 304    
@@ -55,7 +70,7 @@ Impact (V-notch): 60J            <<<---- VERY GOOD
 Hardness (Brinell): 215          <<<---- soft   
 density: 7.9g / cm^3
 
-Spring steel (Wulflund Arrows, AceJet knives)   
+Spring steel 
 EN 1.7102, AISI 54SiCr6, CSN 14260    
 (Quenched and tempered)   
 Tensile strength: 1600 Mpa      <<<--- VERY STRONG   
@@ -72,11 +87,9 @@ Impact (V-notch): 45J         <<<--- GOOD
 Hardness: 400HB (Brinell), Rockwell 43   
 density: 7.6g/cm³   
 
-Regrettably almost every steel offered by the laser cutters is weak.   
-Mostly you get stainless 1.4301 and that can be too low on yield strength (for extreme knife   
-geometries, like: thin in the middle).   
-However from one source you get Hardox HB400 and that is all around an excellent steel since    
-it combines strength with impact resistance.   
+Stainless 1.4301 is too low on yield strength (for extreme knife geometries).   
+We choose Hardox HB400 which combines strength with impact resistance and has an authentic 
+looking sheen.
 
 You can get it from this 
 [laser cutter](https://laserhub.com/materialien/metallkatalog/).
@@ -94,7 +107,7 @@ chemical composition:
 Generally you do not want a steel with too much carbon (e.g more than 0.70%) -- it is too brittle.
 
 
-## How to get your knife ##
+## How to get your imitation throwing knife ##
 
 You navigate into the folder [knives](https://github.com/spyqqqdia/Knife/tree/master/knives). In each of the subfolders you 
 will find text files that contain the commands you enter on the command line into the CAD-program _LibreCAD_
@@ -107,21 +120,18 @@ but as of yet I was unable to make it work and so you have to enter the commands
 of LibreCAD.
 
 Then you choose your laser cutter, upload the CAD-file and choose your steel, thickness and number of pieces. 
-You then get a price and can order. This is some orders of magnitude cheaper than the commercial sources for knives
-but also your knife still needs some work. You will need a rotary grinder. Choose a slow running one to avoid overheating the
+You then get a price and can order. This is some orders of magnitude cheaper than the commercial sources for real 
+throwing knives.
+
+However your knife still needs some work. You will need a rotary grinder. Choose a slow running one to avoid overheating the
 steel and one with high grade (white) corundum wheels. CBN grinding wheels are even better but are tyically not available
 on affordable grinders, you need to order them separately.
+
+Do not forget to round off the tip (if not rounded already) and the edges.
 
 Currently I have uploaded the PDFs (scroll all the way down) and CAD files for the LAV knife (which I like the most).
 Eventually I will put some others on too. The text files with the commands are available for all knives.
 
-Is this a better solution than ordering the expensive knives from sources like Wulflund or AceJet?
-Only if you are willing to put in additional work and want many and several different types of knives
-because you will spend money on tools, equipment (safety goggles, gloves, grinder, diamond files) and invest time.
-If all you want is a set of knives the best solution is to pony up the cash and order from 
-
-[Wulflund](https://www.wulflund.com/weapons-swords-axes-knives/sharp-blades-throwing-knives/)   or  
-[AceJet](https://www.acejetofficial.com/throwing-knives)
 
 ## R-Code ##
 
