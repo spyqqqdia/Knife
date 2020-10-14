@@ -58,7 +58,7 @@ density: 7.9g / cm^3
 Spring steel (Wulflund Arrows, AceJet knives)   
 EN 1.7102, AISI 54SiCr6, CSN 14260    
 (Quenched and tempered)   
-Tensile strenght: 1600 Mpa      <<<--- VERY STRONG   
+Tensile strength: 1600 Mpa      <<<--- VERY STRONG   
 Yield strenght: 1500 MPa        <<<--- VERY STRONG   
 Impact (V-notch): 9.1J          <<<--- brittle   
 Hardness: 480HB (Brinell), Rockwell 50   
@@ -108,7 +108,7 @@ of LibreCAD.
 
 Then you choose your laser cutter, upload the CAD-file and choose your steel, thickness and number of pieces. 
 You then get a price and can order. This is some orders of magnitude cheaper than the commercial sources for knives
-but also your knife still needs some work. You will need a rotary grinder. Chose a slow running one to avoid overheating the
+but also your knife still needs some work. You will need a rotary grinder. Choose a slow running one to avoid overheating the
 steel and one with high grade (white) corundum wheels. CBN grinding wheels are even better but are tyically not available
 on affordable grinders, you need to order them separately.
 
