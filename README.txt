@@ -4,7 +4,7 @@
 #----------- DISCLAIMER and WARNING -----------------------------------------------------------------# 
 
 The following information is provided for informational purposes only and without warranty of any kind. 
-In particular it is not implied that the knives described herein are fit or save for throwing.
+In particular it is not implied that the knives described herein are fit or safe for throwing.
 Indeed they are not intended to be thrown at all and are intended to be authentic looking _imitations_ 
 of throwing knives.
 
