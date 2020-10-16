@@ -222,3 +222,72 @@ knife_LAV_2sided_27cm <- function(f,th,d){
   
   cat("\nFinished, result in",outFile,"\n")
 }
+
+
+
+
+# Writes out CAD points for LibreCAD and computes weight
+#
+# @param f scale factor. Applied to normal scale = 25cm long.
+# @param d steel density kg/dm^3 = 1e6 kg/mm^3
+# @param th thickness in mm
+#
+# Standard length/thickness: 27cm, 6mm, weight: 252g
+# Scale factor is applied only to length and width, not thickness.
+#
+knife_LAV_I_27cm <- function(f,th,d){
+  
+  msg <- "\n\nLayer tip:\n"
+  msg <- paste(msg,"\nLine 2 points:\n")
+  msg <- paste(msg,f*190,",",f*40,"\n")
+  msg <- paste(msg,f*280,",",f*30,"\n")
+  msg <- paste(msg,f*200,",",f*10,"\n")
+  
+  msg <- paste(msg,"\nLayer tip_neck:\n")
+  msg <- paste(msg,"\nSpline through points:\n")
+  msg <- paste(msg,f*190,",",f*40,"\n")
+  msg <- paste(msg,f*160,",",f*36,"\n")
+  msg <- paste(msg,f*140,",",f*35,"\n")
+  msg <- paste(msg,"\nSpline through points:\n")
+  msg <- paste(msg,f*200,",",f*10,"\n")
+  msg <- paste(msg,f*170,",",f*17,"\n")
+  msg <- paste(msg,f*150,",",f*19,"\n")
+  
+  msg <- paste(msg,"\nLayer middle:\n")
+  msg <- paste(msg,"\nLine 2 points:\n")
+  msg <- paste(msg,f*140,",",f*35,"\n")
+  msg <- paste(msg,f*70,",",f*35,"\n")
+  msg <- paste(msg,"\nLine 2 points:\n")
+  msg <- paste(msg,f*150,",",f*19,"\n")
+  msg <- paste(msg,f*105,",",f*19,"\n")
+  
+  
+  msg <- paste(msg,"\nLayer handle:\n")
+  msg <- paste(msg,"\nSpline through points:\n")
+  msg <- paste(msg,f*70,",",f*35,"\n")
+  msg <- paste(msg,f*42,",",f*36.5,"\n")
+  msg <- paste(msg,f*20,",",f*36,"\n")
+  msg <- paste(msg,f*10,",",f*30,"\n")
+  msg <- paste(msg,f*10,",",f*18,"\n")
+  msg <- paste(msg,f*18,",",f*10,"\n")
+  msg <- paste(msg,f*49,",",f*8,"\n")
+  msg <- paste(msg,f*85,",",f*17,"\n")
+  msg <- paste(msg,f*105,",",f*19,"\n")
+  
+  msg <- paste(msg,"\n\nCircle:\n")
+  msg <- paste(msg,f*26,",",f*22.5,"\n")
+  msg <- paste(msg,"Radius = 3mm\n")
+  
+  ID <- "LAV_I_27cm"
+  outFile <- paste("knives/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  cat(msg,file=outFile,append=FALSE)
+  
+  # approximate weight (normalized size)
+  weight <- f*f*(d/7.9)*(th/6)*260
+  msg <- paste("\n\nLength: ",f*27,"cm, thickness: ",th,"mm\n",sep="")
+  msg <- paste(msg,"Weight: ",round(weight,3)," kg.\n",sep="")
+  cat(msg,file=outFile,append=TRUE)
+  
+  cat("\nFinished, result in",outFile,"\n")
+}
+
