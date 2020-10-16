@@ -3,7 +3,7 @@
 #----------- DISCLAIMER and WARNING -----------------------------------------------------------------# 
 
 The following information is provided for informational purposes only and without warranty of any kind. 
-In particular it is not implied that the knives described herein are fit or save for throwing.
+In particular it is not implied that the knives described herein are fit or safe for throwing.
 Indeed they are not intended to be thrown at all and are intended to be authentic looking _imitations_ 
 of throwing knives.
 
@@ -19,7 +19,7 @@ the CAD program LibreCAD to generate the *.dxf CAD-file. You can then send the C
 have the blanks cut. Links to laser cutters are found below.
 
 Instruct the laser cutter to round off the tip, otherwise the laser may cut a sharp tip on the knife.
-However the blanks need to be worked on some -- not much. The edges need to be slightly rounded and the
+Even so the blanks need to be worked on some -- not much. The edges need to be slightly rounded and the
 tip ground in angular fashion to an authentic looking shape.
 
 
@@ -146,19 +146,5 @@ This R code also tries to compute the weight of the knife (needs parameter th = 
 d = steel density in g/cm³)
 This is only approximate but should now be very good for LAVs, Arrows and MMYs since I have these already
 and need to only account for change in thickness, scale and density which can be done exactly.
-
-
-    © 2020 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
 
 
