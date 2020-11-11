@@ -44,7 +44,7 @@ knife_MMY <- function(f,th,d){
   msg <- paste(msg,"Radius = 2mm\n")
   
   ID <- "MMY"
-  outFile <- paste("knives/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  outFile <- paste("knives/MMY/",ID,"_th=",th,"_f=",f,".txt",sep="")
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)
@@ -91,7 +91,7 @@ knife_Slim_MMY <- function(f,th,d){
   msg <- paste(msg,"Radius = 2mm\n")
   
   ID <- "Slim_MMY"
-  outFile <- paste("knives/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  outFile <- paste("knives/MMY/",ID,"_th=",th,"_f=",f,".txt",sep="")
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)
@@ -140,7 +140,7 @@ knife_Viz_MMY <- function(f,th,d){
   msg <- paste(msg,"Radius = 2mm\n")
   
   ID <- "Viz_MMY"
-  outFile <- paste("knives/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  outFile <- paste("knives/MMY/",ID,"_th=",th,"_f=",f,".txt",sep="")
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)
@@ -183,7 +183,7 @@ knife_SlimViz_MMY <- function(f,th,d){
   msg <- paste(msg,"Radius = 2mm\n")
   
   ID <- "SlimViz_MMY"
-  outFile <- paste("knives/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  outFile <- paste("knives/MMY/",ID,"_th=",th,"_f=",f,".txt",sep="")
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)

@@ -49,7 +49,7 @@ knife_Arrow <- function(f,th,d){
   msg <- paste(msg,"Radius = 2mm\n")
   
   ID <- "Arrow"
-  outFile <- paste("knives/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  outFile <- paste("knives/Arrow/",ID,"_th=",th,"_f=",f,".txt",sep="")
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)
@@ -95,7 +95,7 @@ knife_SmoothArrow <- function(f,th,d){
   msg <- paste(msg,"Radius = 2mm\n")
   
   ID <- "SmoothArrow"
-  outFile <- paste("knives/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  outFile <- paste("knives/Arrow/",ID,"_th=",th,"_f=",f,".txt",sep="")
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)
@@ -153,7 +153,7 @@ knife_SlimArrow <- function(f,th,d){
   msg <- paste(msg,"Radius = 2mm\n")
   
   ID <- "SlimArrow"
-  outFile <- paste("knives/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  outFile <- paste("knives/Arrow/",ID,"_th=",th,"_f=",f,".txt",sep="")
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)
@@ -214,7 +214,7 @@ knife_ThickArrow <- function(f,th,d){
   msg <- paste(msg,"Radius = 2mm\n")
   
   ID <- "ThickArrow"
-  outFile <- paste("knives/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  outFile <- paste("knives/Arrow/",ID,"_th=",th,"_f=",f,".txt",sep="")
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)

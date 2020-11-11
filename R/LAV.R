@@ -65,7 +65,7 @@ knife_st_LAV_27cm <- function(f,th,d){
   msg <- paste(msg,"Radius = 2mm\n")
   
   ID <- "LAV_st_27cm"
-  outFile <- paste("knives/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  outFile <- paste("knives/LAV/",ID,"_th=",th,"_f=",f,".txt",sep="")
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)
@@ -132,7 +132,7 @@ knife_st_LAV_26cm <- function(f,th,d){
   msg <- paste(msg,"Radius = 2mm\n")
   
   ID <- "LAV_st_26cm"
-  outFile <- paste("knives/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  outFile <- paste("knives/LAV/",ID,"_th=",th,"_f=",f,".txt",sep="")
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)
@@ -211,7 +211,7 @@ knife_LAV_st_2sided_27cm <- function(f,th,d){
   msg <- paste(msg,"Radius = 2mm\n")
   
   ID <- "LAV_st_2sided_27cm"
-  outFile <- paste("knives/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  outFile <- paste("knives/LAV/",ID,"_th=",th,"_f=",f,".txt",sep="")
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)
@@ -280,7 +280,7 @@ knife_mt_LAV_27cm <- function(f,th,d){
   msg <- paste(msg,"Radius = 3mm\n")
   
   ID <- "LAV_mt_27cm"
-  outFile <- paste("knives/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  outFile <- paste("knives/LAV/",ID,"_th=",th,"_f=",f,".txt",sep="")
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)
@@ -350,7 +350,7 @@ knife_LAV_lt_27cm <- function(f,th,d){
   msg <- paste(msg,"Radius = 3mm\n")
   
   ID <- "LAV_lt_27cm"
-  outFile <- paste("knives/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  outFile <- paste("knives/LAV/",ID,"_th=",th,"_f=",f,".txt",sep="")
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)
@@ -419,7 +419,7 @@ knife_ltm_LAV_28cm <- function(f,th,d){
   msg <- paste(msg,"Radius = 3mm\n")
   
   ID <- "LAV_ltm_28cm"
-  outFile <- paste("knives/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  outFile <- paste("knives/LAV/",ID,"_th=",th,"_f=",f,".txt",sep="")
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)
