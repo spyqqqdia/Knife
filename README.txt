@@ -94,7 +94,7 @@ found a cheap source yet.
 You can get it from this 
 [laser cutter](https://laserhub.com/materialien/metallkatalog/).
 
-Here is a [list of laser cutters](knives/LASER_CUTTERS.HTML) with more details on steels. 
+Here is a [list of laser cutters](knives/LASER_CUTTERS.html) with more details on steels. 
 Prefer nitrogen as cutting gas (possible up to
 6mm, 8mm maybe. Oxygen cuts faster but more heat, rougher cut).
 
