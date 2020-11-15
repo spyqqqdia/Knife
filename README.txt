@@ -88,12 +88,15 @@ density: 7.6g/cm³
 
 Stainless 1.4301 is too low on yield strength (for extreme knife geometries).   
 We choose Hardox HB400 which combines strength with impact resistance and has an authentic 
-looking sheen.
+looking sheen. Harder grades of Hardox exist also (exceptional impact toughness) but I have not
+found a cheap source yet.
 
 You can get it from this 
 [laser cutter](https://laserhub.com/materialien/metallkatalog/).
 
-[another laser cutter](https://laserteileonline.de/)  
+Here is a [list of laser cutters](knives/LASER_CUTTERS.HTML) with more details on steels. 
+Prefer nitrogen as cutting gas (possible up to
+6mm, 8mm maybe. Oxygen cuts faster but more heat, rougher cut).
 
 This is for Germany. I am sure laser cutters exist in every continent and developed country.  
 Generally for every steel you can get a spec sheet if you know the EN or AISI classification,   
