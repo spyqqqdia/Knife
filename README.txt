@@ -96,7 +96,8 @@ You can get it from this
 
 Here is a [list of laser cutters](knives/LASER_CUTTERS.html) with more details on steels. 
 Prefer nitrogen as cutting gas (possible up to
-6mm, 8mm maybe. Oxygen cuts faster but more heat, rougher cut).
+6mm, 8mm maybe. Oxygen cuts faster but more heat, rougher cut). Rolling direction (Walzrichtung)
+horizontal (along the long axis of the knife).
 
 This is for Germany. I am sure laser cutters exist in every continent and developed country.  
 Generally for every steel you can get a spec sheet if you know the EN or AISI classification,   
