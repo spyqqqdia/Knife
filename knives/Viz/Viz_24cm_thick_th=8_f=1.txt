@@ -1,0 +1,33 @@
+
+
+Layer handle:
+ 
+Spline through points:
+ 170 , 34 
+ 150 , 32 
+ 130 , 31 
+ 40 , 36 
+ 15 , 35 
+ 10 , 32 
+ 10 , 18 
+ 15 , 15 
+ 40 , 14 
+ 120 , 16 
+ 170 , 16 
+ 185 , 15 
+ 
+
+Circle:
+ 22 , 25 
+ Radius = 2.5mm
+ 
+Tip:
+ 
+Line 2 points:
+ 185 , 15 
+ 250 , 24 
+ 170 , 34 
+
+
+Length: 25cm, thickness: 8mm
+Weight: 0.217 kg.
