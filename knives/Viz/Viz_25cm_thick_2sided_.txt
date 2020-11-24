@@ -1,0 +1,43 @@
+
+
+Layer handle:
+ 
+Spline through points:
+ 180 , 36 
+ 160 , 33 
+ 140 , 31.5 
+ 75 , 34
+
+Spline through points
+ 90 , 12 
+ 110, 15
+ 130, 16.5
+ 195, 14
+
+Circle:
+ 187.5 , 25 
+ Radius = 2mm
+
+Circle:
+ 187.4 , 25 
+ Radius = 2mm
+
+Circle:
+ 82.6 , 23.6 
+ Radius = 2mm
+ 
+TipR: 
+Line 2 points:
+ 195 , 14 
+ 260 , 24 
+ 180 , 36
+
+TipL: 
+Line 2 points:
+ 75 , 34 
+ 10 , 24 
+ 90 , 12
+
+
+weight: 7.9*8*13.5*250/1e6 = 213g
+
