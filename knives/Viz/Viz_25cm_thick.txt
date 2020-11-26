@@ -1,6 +1,8 @@
 
+TIP: 9/7
 
-layer Tip:
+
+Layer tip:
  
 Line 2 points:
  190 , 36 
@@ -29,7 +31,6 @@ Spline through points:
  20 , 34 
  10 , 28.5 
  10 , 20.5 
- 10 , 32.5 
  18 , 15 
  50 , 13 
  85 , 17 
@@ -38,8 +39,8 @@ Spline through points:
 
 Circle:
  22 , 24.25 
- Radius = 2mm
+ Radius = 2.5mm
 
 
 Length: 25cm, thickness: 8mm
-Weight: 0.253 kg.
+Weight: 7.9*8*16*250/1e6 = 250

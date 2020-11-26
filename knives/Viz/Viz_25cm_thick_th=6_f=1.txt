@@ -41,5 +41,5 @@ Circle:
  Radius = 2mm
 
 
-Length: 25cm, thickness: 8mm
-Weight: 0.253 kg.
+Length: 25cm, thickness: 6mm
+Weight: 0.19 kg.
