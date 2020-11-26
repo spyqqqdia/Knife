@@ -65,7 +65,7 @@ knife_viz_25cm <- function(f,th,d){
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)
-  weight <- 0.5*f*f*th*d*(30*250+110*15)/1e6
+  weight <- f*f*th*d*20*250/1e6
   msg <- paste("\n\nLength: ",f*25,"cm, thickness: ",th,"mm\n",sep="")
   msg <- paste(msg,"Weight: ",round(weight,3)," kg.\n",sep="")
   cat(msg,file=outFile,append=TRUE)
@@ -416,55 +416,201 @@ knife_viz_24cm_thick <- function(f,th,d){
 
 
 # Writes out CAD points for LibreCAD and computes weight.
-# Tip: 8 / 6.5 cm
+# Tip: 9 / 7 cm
 #
 # @param f scale factor. Applied to normal scale = 25cm long.
 # @param d steel density kg/dm^3 = 1e6 kg/mm^3
 # @param th thickness in mm
 #
-# Standard length/thickness: 25cm, 8mm, weight: 226g
+# Standard length/thickness: 25cm, 8mm, weight: 252g
 # Scale factor is applied only to length and width, not thickness.
 #
 knife_viz_25cm_thick <- function(f,th,d){
   
-  msg <- "\n\nLayer handle:\n"
+  msg <- "\n\nlayer Tip:\n"
+  msg <- paste(msg,"\nLine 2 points:\n")
+  msg <- paste(msg,f*190,",",f*36,"\n")
+  msg <- paste(msg,f*260,",",f*30,"\n")
+  msg <- paste(msg,f*170,",",f*13,"\n")
+  
+  msg <- paste(msg,"\nLayer middle:\n")
+  
   msg <- paste(msg,"\nSpline through points:\n")
-  msg <- paste(msg,f*180,",",f*34.5,"\n")
-  msg <- paste(msg,f*160,",",f*32.3,"\n")
-  msg <- paste(msg,f*140,",",f*31,"\n")
-  msg <- paste(msg,f*40,",",f*37,"\n")
-  msg <- paste(msg,f*15,",",f*36,"\n")
+  msg <- paste(msg,f*190,",",f*36,"\n")
+  msg <- paste(msg,f*170,",",f*34.7,"\n")
+  msg <- paste(msg,f*140,",",f*33,"\n")
+  msg <- paste(msg,f*80,",",f*33,"\n")
+  
+  msg <- paste(msg,"\nSpline through points:\n")
+  msg <- paste(msg,f*170,",",f*13,"\n")
+  msg <- paste(msg,f*150,",",f*17.5,"\n")
+  msg <- paste(msg,f*130,",",f*19,"\n")
+  msg <- paste(msg,f*105,",",f*19,"\n")
+  
+  msg <- paste(msg,"\nLayer handle:\n")
+  
+  msg <- paste(msg,"\nSpline through points:\n")
+  msg <- paste(msg,f*80,",",f*33,"\n")
+  msg <- paste(msg,f*42,",",f*34.5,"\n")
+  msg <- paste(msg,f*20,",",f*34,"\n")
+  msg <- paste(msg,f*10,",",f*28.5,"\n")
+  msg <- paste(msg,f*10,",",f*20.5,"\n")
   msg <- paste(msg,f*10,",",f*32.5,"\n")
-  msg <- paste(msg,f*10,",",f*16.5,"\n")
-  msg <- paste(msg,f*15,",",f*14,"\n")
-  msg <- paste(msg,f*40,",",f*13,"\n")
-  msg <- paste(msg,f*130,",",f*15.7,"\n")
-  msg <- paste(msg,f*160,",",f*15.7,"\n")
-  msg <- paste(msg,f*195,",",f*14,"\n")
+  msg <- paste(msg,f*18,",",f*15,"\n")
+  msg <- paste(msg,f*50,",",f*13,"\n")
+  msg <- paste(msg,f*85,",",f*17,"\n")
+  msg <- paste(msg,f*105,",",f*19,"\n")
   
   msg <- paste(msg,"\n\nCircle:\n")
-  msg <- paste(msg,f*21,",",f*25,"\n")
-  msg <- paste(msg,"Radius = 2.5mm\n")
+  msg <- paste(msg,f*22,",",f*24.25,"\n")
+  msg <- paste(msg,"Radius = 2mm\n")
   
-  
-  msg <- paste(msg,"\nTip:\n")
-  msg <- paste(msg,"\nLine 2 points:\n")
-  msg <- paste(msg,f*195,",",f*14,"\n")
-  msg <- paste(msg,f*260,",",f*24,"\n")
-  msg <- paste(msg,f*180,",",f*34.5,"\n")
- 
   ID <- "Viz_25cm_thick"
   outFile <- paste("knives/Viz/",ID,"_th=",th,"_f=",f,".txt",sep="")
   cat(msg,file=outFile,append=FALSE)
   
   # approximate weight (normalized size)
-  weight <- 0.5*f*f*th*d*(26*250+130*5)/1e6 
+  weight <- f*f*th*d*(16*250)/1e6 
   msg <- paste("\n\nLength: ",f*25,"cm, thickness: ",th,"mm\n",sep="")
   msg <- paste(msg,"Weight: ",round(weight,3)," kg.\n",sep="")
   cat(msg,file=outFile,append=TRUE)
   
   cat("\nFinished, result in",outFile,"\n")
 }
+
+
+
+# Writes out CAD points for LibreCAD and computes weight.
+# Tip: 8 / 6.5 cm
+#
+# @param f scale factor. Applied to normal scale = 25cm long.
+# @param d steel density kg/dm^3 = 1e6 kg/mm^3
+# @param th thickness in mm
+#
+# Standard length/thickness: 25cm, 8mm, weight: 237g
+# Scale factor is applied only to length and width, not thickness.
+#
+knife_viz_25cm_thick_2sided <- function(f,th,d){
+  
+  msg <- "\n\nlayer middle:\n"
+  msg <- paste(msg,"\nSpline through points:\n")
+  msg <- paste(msg,f*180,",",f*36,"\n")
+  msg <- paste(msg,f*160,",",f*33,"\n")
+  msg <- paste(msg,f*140,",",f*31.5,"\n")
+  msg <- paste(msg,f*75,",",f*34,"\n")
+  
+  msg <- paste(msg,"\nSpline through points:\n")
+  msg <- paste(msg,f*90,",",f*12,"\n")
+  msg <- paste(msg,f*110,",",f*15,"\n")
+  msg <- paste(msg,f*130,",",f*16.5,"\n")
+  msg <- paste(msg,f*195,",",f*14,"\n")
+  
+  msg <- paste(msg,"\n\nCircle:\n")
+  msg <- paste(msg,f*187.4,",",f*25,"\n")
+  msg <- paste(msg,"Radius = 2mm\n")
+  
+  msg <- paste(msg,"\n\nCircle:\n")
+  msg <- paste(msg,f*82.6,",",f*23.6,"\n")
+  msg <- paste(msg,"Radius = 2mm\n")
+  
+  
+  msg <- paste(msg,"\nLayer TipR:\n")
+  
+  msg <- paste(msg,"\nLine 2 points:\n")
+  msg <- paste(msg,f*180,",",f*36,"\n")
+  msg <- paste(msg,f*260,",",f*24,"\n")
+  msg <- paste(msg,f*195,",",f*14,"\n")
+ 
+  
+  msg <- paste(msg,"\nLayer TipL:\n")
+  
+  msg <- paste(msg,"\nLine 2 points:\n")
+  msg <- paste(msg,f*75,",",f*34,"\n")
+  msg <- paste(msg,f*10,",",f*24,"\n")
+  msg <- paste(msg,f*90,",",f*12,"\n")
+  
+  ID <- "Viz_25cm_thick_2sided"
+  outFile <- paste("knives/Viz/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  cat(msg,file=outFile,append=FALSE)
+  
+  # approximate weight (normalized size)
+  weight <- f*f*th*d*(15*250)/1e6 
+  msg <- paste("\n\nLength: ",f*25,"cm, thickness: ",th,"mm\n",sep="")
+  msg <- paste(msg,"Weight: ",round(weight,3)," kg.\n",sep="")
+  cat(msg,file=outFile,append=TRUE)
+  
+  cat("\nFinished, result in",outFile,"\n")
+}
+
+
+
+
+
+
+
+
+# Writes out CAD points for LibreCAD and computes weight.
+# Tip: 8 / 6.5 cm
+#
+# @param f scale factor. Applied to normal scale = 25cm long.
+# @param d steel density kg/dm^3 = 1e6 kg/mm^3
+# @param th thickness in mm
+#
+# Standard length/thickness: 25cm, 8mm, weight: 252g
+# Scale factor is applied only to length and width, not thickness.
+#
+knife_viz_25cm_thick_2sided_A <- function(f,th,d){
+  
+  msg <- "\n\nlayer middle:\n"
+  msg <- paste(msg,"\nSpline through points:\n")
+  msg <- paste(msg,f*180,",",f*38,"\n")
+  msg <- paste(msg,f*160,",",f*34.2,"\n")
+  msg <- paste(msg,f*140,",",f*32.5,"\n")
+  msg <- paste(msg,f*75,",",f*35,"\n")
+  
+  msg <- paste(msg,"\nSpline through points:\n")
+  msg <- paste(msg,f*90,",",f*10,"\n")
+  msg <- paste(msg,f*110,",",f*13.8,"\n")
+  msg <- paste(msg,f*130,",",f*15.5,"\n")
+  msg <- paste(msg,f*195,",",f*13,"\n")
+  
+  msg <- paste(msg,"\n\nCircle:\n")
+  msg <- paste(msg,f*187.4,",",f*25,"\n")
+  msg <- paste(msg,"Radius = 2mm\n")
+  
+  msg <- paste(msg,"\n\nCircle:\n")
+  msg <- paste(msg,f*82.6,",",f*23,"\n")
+  msg <- paste(msg,"Radius = 2mm\n")
+  
+  msg <- paste(msg,"\nLayer TipR:\n")
+  
+  msg <- paste(msg,"\nLine 2 points:\n")
+  msg <- paste(msg,f*195,",",f*13,"\n")
+  msg <- paste(msg,f*260,",",f*24,"\n")
+  msg <- paste(msg,f*180,",",f*38,"\n")
+  
+  
+  msg <- paste(msg,"\nLayer TipL:\n")
+  
+  msg <- paste(msg,"\nLine 2 points:\n")
+  msg <- paste(msg,f*75,",",f*35,"\n")
+  msg <- paste(msg,f*10,",",f*24,"\n")
+  msg <- paste(msg,f*90,",",f*10,"\n")
+  
+  ID <- "Viz_25cm_thick_2sided_A"
+  outFile <- paste("knives/Viz/",ID,"_th=",th,"_f=",f,".txt",sep="")
+  cat(msg,file=outFile,append=FALSE)
+  
+  # approximate weight (normalized size)
+  weight <- f*f*th*d*(16*250)/1e6 
+  msg <- paste("\n\nLength: ",f*25,"cm, thickness: ",th,"mm\n",sep="")
+  msg <- paste(msg,"Weight: ",round(weight,3)," kg.\n",sep="")
+  cat(msg,file=outFile,append=TRUE)
+  
+  cat("\nFinished, result in",outFile,"\n")
+}
+
+
 
 
 
