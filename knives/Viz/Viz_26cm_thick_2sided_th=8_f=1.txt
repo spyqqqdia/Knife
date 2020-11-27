@@ -1,0 +1,45 @@
+
+
+Layer TipR:
+ 
+Line 2 points:
+ 205 , 34 
+ 270 , 27 
+ 188 , 11 
+ 
+
+Circle:
+ 195 , 23 
+ Radius = 2mm
+ 
+layer middle:
+ 
+Spline through points:
+ 205 , 34 
+ 170 , 32 
+ 130 , 31 
+ 110 , 33 
+ 92 , 37 
+ 
+Spline through points:
+ 75 , 14 
+ 110 , 16 
+ 150 , 17 
+ 170 , 15 
+ 188 , 11 
+ 
+Layer TipL:
+ 
+Line 2 points:
+ 92 , 37 
+ 10 , 21 
+ 75 , 14 
+ 
+
+Circle:
+ 85 , 25 
+ Radius = 2mm
+
+
+Length: 26cm, thickness: 8mm
+Weight: 0.221 kg.
