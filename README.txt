@@ -19,6 +19,7 @@ the CAD program LibreCAD to generate the *.dxf CAD-file. You can then send the C
 have the blanks cut. Links to laser cutters are found below.
 
 Instruct the laser cutter to round off the tip, otherwise the laser may cut a sharp tip on the knife.
+This is bad for the steel (see remarks below).
 Even so the blanks need to be worked on some -- not much. The edges need to be slightly rounded and the
 tip ground in angular fashion to an authentic looking shape.
 
@@ -63,7 +64,7 @@ Here some examples of steels
 
 Kitchen sink stainless:    
 EN 1.4301, AISI 304    
-Tensile strenght: 500-700Mpa     <<<--- adequate       
+Tensile strength: 500-700Mpa     <<<--- adequate       
 Yield strength; 190 Mpa          <<<---- TOO WEAK   
 Impact (V-notch): 60J            <<<---- VERY GOOD   
 Hardness (Brinell): 215          <<<---- soft   
@@ -72,8 +73,8 @@ density: 7.9g / cm^3
 Spring steel 
 EN 1.7102, AISI 54SiCr6, CSN 14260    
 (Quenched and tempered)   
-Tensile strength: 1600 Mpa      <<<--- VERY STRONG   
-Yield strenght: 1500 MPa        <<<--- VERY STRONG   
+Tensile strength: 1600 Mpa      <<<--- EXCELLENT    
+Yield strength: 1500 MPa        <<<--- EXCELLENT   
 Impact (V-notch): 9.1J          <<<--- brittle   
 Hardness: 480HB (Brinell), Rockwell 50   
 density 7.6g / cm³   
@@ -82,23 +83,57 @@ Hardox HB400
 (excavator shovels and such)   
 Tensile strength: 1250 Mpa    <<<--- GOOD   
 Yield strength: 1000 MPa      <<<--- GOOD   
-Impact (V-notch): 45J         <<<--- GOOD   
+Impact (V-notch): 45J         <<<--- EXCELLENT   
 Hardness: 400HB (Brinell), Rockwell 43   
 density: 7.6g/cm³   
 
-Stainless 1.4301 is too low on yield strength (for extreme knife geometries).   
-We choose Hardox HB400 which combines strength with impact resistance and has an authentic 
-looking sheen. Harder grades of Hardox exist also (exceptional impact toughness) but I have not
-found a cheap source yet.
+Hardox HB500   
+Tensile strength: 1600 Mpa      <<<--- EXCELLENT    
+Yield strength: 1250-1400 MPa   <<<--- EXCELLENT   
+Impact (V-notch): 37J           <<<--- VERY GOOD   
+Hardness: 500HB (Brinell), Rockwell 50   
+density: 7.6g/cm³   
 
+Stainless 1.4301 is too low on yield strength (for extreme knife geometries).   
+Hardox HB400 is widely available and has reasonable yield strength with excellent impact 
+resistance.
 You can get it from this 
 [laser cutter](https://laserhub.com/materialien/metallkatalog/).
 
-Here is a [list of laser cutters](knives/LASER_CUTTERS.html) with more details on steels. 
-Prefer nitrogen as cutting gas (possible up to
-6mm, 8mm maybe. Oxygen cuts faster but more heat, rougher cut). Rolling direction (Walzrichtung)
-horizontal (along the long axis of the knife).
+Harder grades of Hardox are availablke from this supplier:
+[Dünnewald](https://www.duennewald.de/hardox.php)
 
+Hardox 500 is particularly interesting as it strikes 
+an excellent balance between yield strength and impact toughness.
+In its pristine condition it rivals the CSN 14260 spring steel above with much better
+impact toughness.
+
+However there is a catch
+The Hardox plates come in quenched and tempered (QT) condition, meaning they are heat treated to
+obtain the specified strength parameters above.
+The laser will soften and weaken the steel by heating it. This is a problem only at the tip of the knife 
+where the cutting edges are close together and there is little material to absorb the heat.
+If the CAD design specifies a sharp tip to be cut on the knife we must expect the steel at the tip to be 
+significantly weakened.
+
+Many of the knives here have this design flaw (which will be eliminated over time). However I have thrown extensively
+with Hardox HB400 knives with this flaw and had only minor problems: some miniscule deformations of the tip after
+knife on knife impact which could easily be fixed with a file in 30 seconds.
+It is a design flaw nonetheless. It is much better to cut the tip in a semicircle of small radius (e.g 1mm)
+and then grind on a sharp tip if this is desired.
+
+Another point to watch is the following: the laser cutter can use either nitrogen or oxygen as a cutting gas.
+Nitrogen will blow the molten steel out of the cut while oxygen will burn it off. Thus cutting with oxygen
+heats the steel even more which aggravates the problem above. Thus we should always specify Nitrogen as the 
+cutting gas (possible up to plate thickness of 6mm after that Oxygen must be used).
+Nitrogen also makes for a cleaner cut.
+
+[Rolling direction](https://www.highpowermedia.com/Archive/directional-strength-of-steels) is also a issue. 
+Funnily steel has a grain much like wood. Since impact forces act along the long axis of the knife, 
+this long axis should be aligned with the rolling direction. 
+This means that the cut should occur in the rolling direction of the steel plate.
+
+Here is a [list of laser cutters](knives/LASER_CUTTERS.html) with more details on steels. 
 This is for Germany. I am sure laser cutters exist in every continent and developed country.  
 Generally for every steel you can get a spec sheet if you know the EN or AISI classification,   
 for which you can get tables on the internet:
