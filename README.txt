@@ -66,7 +66,7 @@ Kitchen sink stainless:
 EN 1.4301, AISI 304    
 Tensile strength: 500-700Mpa     <<<--- adequate       
 Yield strength; 190 Mpa          <<<---- TOO WEAK   
-Impact (V-notch): 60J            <<<---- VERY GOOD   
+Impact (V-notch): 60J            <<<---- OUTSTANDING  
 Hardness (Brinell): 215          <<<---- soft   
 density: 7.9g / cm^3
 
