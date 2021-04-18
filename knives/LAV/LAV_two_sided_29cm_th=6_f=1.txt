@@ -1,10 +1,20 @@
 
 
+Tips will be cut as semicircles to prevent laser damage
+
+
 right side:
  
 Line 2 points:
  230 , 41 
  300 , 34
+
+Spline trough points (semicircle as tip)
+ 300 , 34
+ 300.5 , 33.5
+ 300 , 33
+
+Line 2 points:
  300 , 33 
  213 , 10 
  
@@ -23,34 +33,43 @@ Spline through points:
 left side:
 
 Line 2 points:
-97,44
-10,23
-10,22
-80,15
+ 97 , 44
+ 10 , 23
+
+Spline trough points (semicircle as tip)
+ 10 , 23
+ 9.5 , 22.5
+ 10 , 22
+
+Line 2 points:
+ 10 , 22
+ 80 , 15
 
 Spline through points:
-97,46
-128,38,
-150,36
+ 97 , 46
+ 128 , 38,
+ 150 , 36
 
 Spline through points:
-80,15
-110,19
-130,20
+ 80 , 15
+ 110 , 19
+ 130 , 20
 
 Middle
 
 Line, 2 poins:
-150,36,
-180,36
+ 150 , 36,
+ 180 , 36
 
 Line, 2 poins:
-130,20,
-160,20
+ 130 , 20,
+ 160 , 20
 
  
 
-
-
 Length: 29cm, thickness: 6mm
-Weight: 0.25 kg.
+Weight: 0.25 kg
+
+
+
+
