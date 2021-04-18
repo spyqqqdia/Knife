@@ -1,0 +1,56 @@
+
+
+right side:
+ 
+Line 2 points:
+ 230 , 41 
+ 300 , 34
+ 300 , 33 
+ 213 , 10 
+ 
+Layer tip_neck:
+ 
+Spline through points:
+ 230 , 41 
+ 200 , 37 
+ 180 , 36 
+ 
+Spline through points:
+ 213 , 10 
+ 182 , 18 
+ 160 , 20 
+ 
+left side:
+
+Line 2 points:
+97,44
+10,23
+10,22
+80,15
+
+Spline through points:
+97,46
+128,38,
+150,36
+
+Spline through points:
+80,15
+110,19
+130,20
+
+Middle
+
+Line, 2 poins:
+150,36,
+180,36
+
+Line, 2 poins:
+130,20,
+160,20
+
+ 
+
+
+
+Length: 29cm, thickness: 6mm
+Weight: 0.25 kg.
