@@ -1,0 +1,71 @@
+
+
+Layer rtip:
+Line 2 points:
+ 235 , 44 
+ 300 , 32
+Spline through points:
+ 300 , 32
+ 302 , 31
+ 300 , 30
+ radius = 1.5mm
+Line 2 points:
+ 300 , 30
+ 215 , 14 
+
+
+Layer rneck:
+Spline through points:
+ 235 , 44 
+ 220 , 40.5 
+ 210 , 39 
+Spline through points:
+ 215 , 14 
+ 195 , 19 
+ 165 , 21 
+Circle:
+ 205 , 29
+ radius = 2mm
+
+
+Layer ltip:
+Line through points:
+ 105 , 46
+ 20 , 30
+Spline through points:
+ 20 , 30
+ 18 , 29
+ 20 , 28
+Line through points:
+ 20 , 28
+ 85 , 16
+
+
+Layer lneck:
+Spline through points:
+ 105 , 46
+ 125 , 41
+ 155 , 39
+Spline through points:
+ 85 , 16
+ 100 ,19.5
+ 110 , 21
+Circle:
+ 85 , 31 
+ Radius = 2mm
+
+
+Layer middle:
+ Line 2 points:
+ 110 , 21 
+ 165 , 21 
+ Line 2 points:
+ 155 , 39 
+ 210 , 39 
+ 
+
+Length: 28cm, thickness: 6mm
+Weight: 0.235 kg.
+
+
+

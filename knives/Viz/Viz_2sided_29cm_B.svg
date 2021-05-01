@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:lc="http://www.librecad.org" xmlns:xlink="http://www.w3.org/1999/xlink" width="293mm" height="37mm" viewBox="0 0 293 37">
+    <g lc:layername="0" lc:is_locked="false" lc:is_construction="false" fill="none" stroke="black" stroke-width="1">
+        <line x1="221" y1="5" x2="291" y2="14"/>
+        <path d="M291,14 Q295,15 291,16 "/>
+        <line x1="291" y1="16" x2="204" y2="37"/>
+        <path d="M221,5 Q196.09320307,8.24347995 171,9 "/>
+        <path d="M204,37 Q178.05089259,29.00577467 151,28 "/>
+        <line x1="88" y1="0" x2="1" y2="21"/>
+        <path d="M1,21 Q-1,22 1,23 "/>
+        <line x1="1" y1="23" x2="71" y2="32"/>
+        <path d="M88,0 Q113.94910741,7.99422533 141,9 "/>
+        <path d="M71,32 Q95.90679693,28.75652005 121,28 "/>
+        <line x1="141" y1="9" x2="171" y2="9"/>
+        <line x1="121" y1="28" x2="151" y2="28"/>
+        <circle cx="81" cy="17" r="2"/>
+        <circle cx="211" cy="20" r="2"/>
+    </g>
+</svg>

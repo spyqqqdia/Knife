@@ -1,0 +1,80 @@
+
+
+Tips will be cut as semicircles (handle) or semiellipse (tip) 
+to prevent laser damage
+
+
+right side:
+ 
+Line 2 points:
+ 230 , 43 
+ 300 , 33
+ 
+Spline trough points (semiellipse as tip)
+ 300 , 33
+ 302 , 32
+ 300 , 31
+
+Line 2 points:
+ 300 , 31 
+ 213 , 10 
+ 
+Layer tip_neck:
+ 
+Spline through points:
+ 230 , 43 
+ 200 , 39.5 
+ 180 , 38 
+ 
+Spline through points:
+ 213 , 10 
+ 182 , 17 
+ 160 , 19 
+ 
+left side:
+
+Line 2 points:
+97 , 47
+10 , 26
+
+Spline trough points (semicircle as handle)
+ 10 , 26
+ 9 , 25
+ 10 , 24
+
+Line 2 points:
+10 , 24
+80 , 14
+
+Spline through points:
+97 , 47
+128 , 40 
+150 , 38
+
+Spline through points:
+80 , 14
+110 , 17.5
+130 , 19
+
+Middle
+
+Line, 2 poins:
+150 , 38 
+180 , 38
+
+Line, 2 poins:
+130 , 19  
+160 , 19
+
+Circle
+90,30
+radus = 2mm
+
+Circle
+220,27
+radius = 2
+
+ 
+
+Length: 29cm ,  thickness: 6mm
+Weight: 0.245 kg.
