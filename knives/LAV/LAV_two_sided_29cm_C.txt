@@ -1,0 +1,47 @@
+
+
+
+tip_right 
+Spline through points:
+ 230 , 42 
+ 300 , 35
+ 301 , 34
+ 300 , 33 
+ 240 , 18.5
+ 213 , 10 
+ 
+Middle_top
+Spline through points:
+ 230 , 42 
+ 200 , 37 
+ 180 , 36
+ 150 , 37
+ 128 , 39
+ 97 , 47
+ 
+tip_left
+Spline through points
+ 97 , 47
+ 70 , 38.5
+ 10 , 24
+ 9 , 23
+ 10 , 22
+ 80 , 15
+
+Middle_bottom
+Spline through points:
+ 80 , 15
+ 110 , 20
+ 130 , 21
+ 160 , 20
+ 182 , 18 
+ 213 , 10 
+
+
+Circle: center, point (really: radius)
+90, 30, radius = 1.7
+Circle: center, point (really: radius)
+220, 27, radius = 1.7
+
+Length: 29cm, thickness: 6mm
+Weight: 0.25 kg.

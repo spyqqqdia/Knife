@@ -1,0 +1,42 @@
+
+
+tip_right
+Spline through points points
+210 , 69
+227 , 63
+290 , 46
+291 , 45
+290 , 44
+227 , 37
+
+Middle top
+Spline through points
+210 , 69
+185 , 62
+160 , 59
+110 , 58
+90 , 60
+73 , 63
+
+tip_left
+Spline through points
+73 , 63
+10 , 56
+9 , 55
+10 , 54
+73 , 37
+90 , 31
+
+Middle, bottom
+Spline through points
+90 , 31
+115 , 38
+140 , 41
+190 , 42
+210 , 40
+227, 37
+
+Circle: center, point (really: radius)
+86,47, radius = 1.7 
+Circle: center, point (really: radius)
+214,53, radius = 1.7 
